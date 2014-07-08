@@ -15,6 +15,11 @@
         android:name="com.radiusnetworks.ibeacon.service.IBeaconService">
     </service>
 
+    <service android:name="com.radiusnetworks.ibeacon.service.CalibrationService"
+         android:exported="true"
+         android:enabled="true" >
+     </service>
+
     <service android:enabled="true"
         android:name="com.radiusnetworks.ibeacon.IBeaconIntentProcessor">
     </service>
